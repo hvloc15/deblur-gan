@@ -1,7 +1,8 @@
 import numpy as np
 from PIL import Image
 import click
-
+import sys
+sys.path.insert(0, '/root/deblur-gan')
 from deblurgan.model import generator_model
 from deblurgan.utils import load_images, deprocess_image
 
