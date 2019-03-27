@@ -1,11 +1,11 @@
 absl-py
-bleach
+bleach==1.5.0
 click
 cycler
 decorator
 futures
 h5py
-html5lib
+html5lib==0.9999999
 imageio
 Keras
 Markdown
